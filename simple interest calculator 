@@ -1,0 +1,18 @@
+#include<stdio.h>
+    void main()
+{
+    int pa, r, t;
+    float si;
+    
+    printf("enter value of pa");
+    scanf("%d",&pa);
+    
+    printf("enter value of r");
+    scanf("%d",&r);
+    
+    printf("enter value of t");
+    scanf("%d",&t);
+    
+    si=(pa*r*t)/100;
+    printf("%f",si);
+}

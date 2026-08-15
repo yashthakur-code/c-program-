@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+   int per;
+   printf("enter your %% in the last class: ");
+   scanf("%d", &per);
+ 
+   if (per >= 60 & per <= 100)
+       printf("1st division");
+ 
+   else if (per < 60 & per >= 45)
+       printf ("2nd division");
+ 
+   else if (per < 45 & per >= 33)
+      printf ("3rd division");
+ 
+   else
+      printf ("fail");
+}
